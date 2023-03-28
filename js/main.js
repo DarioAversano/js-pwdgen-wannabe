@@ -1,7 +1,10 @@
 const nome = prompt("Inserisci il tuo nome:");
 const cognome = prompt("Inserisci il tuo cognome:");
 const colore = prompt("Inserisci il tuo colore preferito");
-const numero = 21;
+const numero1 = prompt("Inserisci il primo numero");
+const numero2 = prompt("Inserisci il secondo numero");
+
+let numerofinale = numero1 / numero2;
 
 
 let passwordgenerator = `
@@ -10,7 +13,7 @@ let passwordgenerator = `
 Nome: ${nome}
 Cognome: ${cognome}
 Colore preferito: ${colore}
-Numero: ${numero}
+Numero finale: ${numerofinale}
 
 ---------------------------------------------
 `;
